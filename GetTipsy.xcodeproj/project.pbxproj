@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06874C641D332F59E203FD4E /* Pods_GetTipsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026F6414C76D77DE040AFB7 /* Pods_GetTipsy.framework */; };
 		181D6B0B216E3F5F0097710B /* AlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D6B0A216E3F5F0097710B /* AlertHandler.swift */; };
+		18845D5C2174E47500A89D09 /* OverviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18845D5B2174E47500A89D09 /* OverviewListViewController.swift */; };
 		18E37E53216DFB5D00592086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E37E52216DFB5D00592086 /* AppDelegate.swift */; };
 		18E37E55216DFB5D00592086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E37E54216DFB5D00592086 /* ViewController.swift */; };
 		18E37E58216DFB5D00592086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E37E56216DFB5D00592086 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		063F187A4FD8A3D6885D1298 /* Pods-GetTipsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetTipsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetTipsy/Pods-GetTipsy.release.xcconfig"; sourceTree = "<group>"; };
 		181D6B0A216E3F5F0097710B /* AlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandler.swift; sourceTree = "<group>"; };
+		18845D5B2174E47500A89D09 /* OverviewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewListViewController.swift; sourceTree = "<group>"; };
 		18E37E4F216DFB5D00592086 /* GetTipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetTipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E37E52216DFB5D00592086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E37E54216DFB5D00592086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				18E37E54216DFB5D00592086 /* ViewController.swift */,
 				18E37E64216E024F00592086 /* CreateAccountViewController.swift */,
 				18E37E56216DFB5D00592086 /* Main.storyboard */,
+				18845D5B2174E47500A89D09 /* OverviewListViewController.swift */,
 				18E37E59216DFB6300592086 /* Assets.xcassets */,
 				18E37E5B216DFB6300592086 /* LaunchScreen.storyboard */,
 				18E37E66216E2C4E00592086 /* GoogleService-Info.plist */,
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18845D5C2174E47500A89D09 /* OverviewListViewController.swift in Sources */,
 				18E37E65216E024F00592086 /* CreateAccountViewController.swift in Sources */,
 				18E37E55216DFB5D00592086 /* ViewController.swift in Sources */,
 				18E37E53216DFB5D00592086 /* AppDelegate.swift in Sources */,
